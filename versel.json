@@ -1,0 +1,17 @@
+{
+ "version": 2,
+ "builds": [
+   {
+     "src": "./server.js",
+     "use": "@vercel/node"
+   }
+ ],
+ "routes": [
+   { "src": "/(.*)",
+    "dest": "/"
+   } 
+ ],
+ "env": {
+   "NEXT_PUBLIC_API_URL": "@your-api-url" 
+ }
+}
