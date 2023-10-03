@@ -1,5 +1,3 @@
-// routes/groceryProducts.js
-
 const express = require('express');
 const router = express.Router();
 const { GroceryProduct } = require('../models'); 
@@ -31,7 +29,6 @@ router.put('/:id', async (req, res) => {
    const { id } = req.params;
    const { name, price, description } = req.body;
 
-   // Check if the product with the given ID exists
    const product = await GroceryProduct.findByPk(id);
 
    if (!product) {
