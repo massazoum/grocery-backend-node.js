@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Define your API routes
-const groceryProductsRouter = require('./pages/routes/groceryProducts');
+const groceryProductsRouter = require('./routes/groceryProducts');
 app.use('/api/groceryProducts', groceryProductsRouter);
 
 // Start the server
