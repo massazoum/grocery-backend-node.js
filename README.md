@@ -55,6 +55,13 @@ A Backend application built with node.JS and Express that allows users to see gr
 
 ### Key Features <a name="key-features"></a>
 
+- Implement a RESTful API to handle CRUD operations for grocery-products.
+- Store task data persistently (in PostgreSQL) in local after running commands:
+- npx sequelize-cli db:create 
+- npx sequelize-cli db:migrate
+- npx sequelize db:seed:all
+- Ensure proper error handling and validation.
+- Deploy the application to a hosting platform of your choice. (Heroku/Vercel/Netlify)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -84,7 +91,7 @@ This website has been completed and deployed
 ### Deployment
 
   The changes will be deployed to the website through our standard deployment process.
-- [PortFolio](https://massazoum.github.io/PRT)
+- [Grocery_Backend]("https://massa-zoumanigui.onrender.com")
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,6 +109,7 @@ This website has been completed and deployed
 
 - [ ] **Authentication**
 - [ ] **authorization**
+- [ ] **Configuration of remote database**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
